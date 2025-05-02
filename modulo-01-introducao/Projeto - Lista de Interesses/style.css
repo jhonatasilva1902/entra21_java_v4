@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+.container-lista{
+    display: flex;
+    justify-content: space-between;
+    padding: 26px;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.titulo-pagina {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #445464;
+}
+
+input{
+    padding: 10px;
+    margin: 10px 0;
+    width: 70%;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#adicionarButton{
+    background-color: #383aba;
+    color: white;
+}
+
+#limparButton{
+    background-color: #f9f9f9;
+    color: #383aba;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+ 
+}
